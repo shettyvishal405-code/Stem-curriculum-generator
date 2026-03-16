@@ -1,0 +1,500 @@
+# ──────────────────────────────────────────────────
+# ENpower Curriculum Pipeline Configuration
+# Constraints derived from: DB_50_session_Learning_outcomes.xlsx
+# ──────────────────────────────────────────────────
+
+pipeline:
+  name: "ENpower Curriculum Generator"
+  version: "2.0.0"
+  hil_checkpoint: 1
+
+models:
+  primary: "claude-sonnet-4-20250514"
+  validator: "claude-sonnet-4-20250514"
+  max_tokens_generation: 4096
+  max_tokens_validation: 2048
+  temperature_generation: 0.3
+  temperature_validation: 0.0
+
+branding:
+  company: "ENpower"
+  parent: "ThinkEdge"
+  tagline: "THINK . CREATE . LEAD."
+  colors:
+    primary_purple: "723991"
+    secondary_purple: "622b7c"
+    accent_gold: "FFCA05"
+    text_dark: "2D2D2D"
+    text_light: "FFFFFF"
+    bg_light: "F5F0FA"
+  fonts:
+    heading: "Georgia"
+    body: "Calibri"
+    code: "Consolas"
+
+audience:
+  grades: [6, 7, 8]
+  age_range: "11-14"
+  region: "India"
+  boards: ["CBSE", "ICSE"]
+  language: "English"
+  context_examples:
+    - "Indian scientists (APJ Abdul Kalam, CV Raman, Kalpana Chawla)"
+    - "ISRO missions (Chandrayaan, Mangalyaan, Gaganyaan)"
+    - "Indian daily life — autorickshaws, traffic, smart cities"
+    - "Indian agriculture, monsoons, weather patterns"
+    - "Indian currency (INR), local markets, Make in India"
+    - "Cricket, kabaddi, badminton"
+    - "Indian festivals and cultural diversity"
+
+# ══════════════════════════════════════════════════
+# GRADE 6 — 44 SESSIONS
+# Foundation: Electronics → Sensors → Simulation → Arduino Basics → Robotics
+# ══════════════════════════════════════════════════
+grade_6:
+  total_sessions: 44
+  title: "Foundation — Electronics, Sensors & Robotics"
+  phases:
+    introduction:
+      sessions: [1, 2]
+      topic: "What is STEM, Introduction to Technologies"
+      constraints:
+        - "NO electronics building — theory and discussion only"
+        - "NO coding or simulation"
+        - "Focus on lab etiquette, safety rules, tool identification"
+        - "Activities must be fully unplugged"
+      tools: ["Chart paper", "Markers", "Printed images"]
+      tangible: "Understand lab components and lab etiquette"
+
+    electronics_foundation:
+      sessions: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      topic: "Basic Electronics"
+      constraints:
+        - "NO coding — all circuits are physical/manual"
+        - "NO Arduino or microcontrollers"
+        - "NO simulation software"
+        - "Progression: voltage/current → series/parallel → components → breadboard → RGB/potentiometer"
+        - "LEDs and switches before resistors and capacitors"
+        - "RGB circuits and potentiometer ONLY in sessions 9-12"
+      tools: ["LEDs", "Switches", "Buzzers", "Batteries", "Breadboards", "Resistors", "Diodes", "Capacitors", "Potentiometer", "RGB LEDs"]
+      tangible: "Build and debug simple electronic circuits"
+
+    design_thinking:
+      sessions: [13, 14, 15]
+      topic: "Design Thinking"
+      constraints:
+        - "NO electronics building"
+        - "NO coding"
+        - "Use senses-as-input analogy to bridge to sensors phase"
+        - "Problems must be student-relatable (school, home, community)"
+      tools: ["Sticky notes", "Chart paper", "Problem-identification canvas"]
+      tangible: "Analyse problems using Design Thinking, propose tech solutions"
+
+    sensors:
+      sessions: [16, 17, 18, 19, 20, 21, 22, 23]
+      topic: "Working with Sensors"
+      constraints:
+        - "NO Arduino coding — sensors explored conceptually and physically"
+        - "Introduce if-then logic UNPLUGGED before digital"
+        - "Differentiate sensors, actuators, controllers conceptually first"
+        - "Real-world Indian examples for each sensor type"
+      tools: ["Various sensors", "Actuators", "Worksheets"]
+      tangible: "Understand input/output devices and basics of automation"
+
+    simulation:
+      sessions: [24, 25, 26, 27, 28]
+      topic: "Simulation (Tinkercad)"
+      constraints:
+        - "FIRST time students use computers for circuit design"
+        - "Tinkercad ONLY"
+        - "NO Arduino code in simulation — just circuit testing"
+        - "Must relate simulated circuits to physical circuits from sessions 3-12"
+      tools: ["Tinkercad", "Computers/tablets"]
+      tangible: "Build and simulate circuits in Tinkercad"
+
+    microcontroller_intro:
+      sessions: [29, 30]
+      topic: "Microcontroller Basics"
+      constraints:
+        - "FIRST introduction to Arduino"
+        - "Component identification and pin naming ONLY"
+        - "Analog vs digital concepts via simulation"
+        - "NO complex coding — identification and basic upload"
+      tools: ["Arduino Uno", "Tinkercad Arduino simulator"]
+      tangible: "Name Arduino Uno parts and use in simulation"
+
+    sensor_automation:
+      sessions: [31, 32, 33, 34]
+      topic: "Sensor-Based Automation using Microcontrollers"
+      constraints:
+        - "FIRST real Arduino coding with sensors"
+        - "Line follower as target application"
+        - "Simulation BEFORE physical build"
+        - "Block-based coding acceptable"
+      tools: ["Arduino Uno", "Line follower sensors", "Motors", "Tinkercad", "mBlock"]
+      tangible: "Simulated robot follows a line"
+
+    robotics:
+      sessions: [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+      topic: "Robotics"
+      constraints:
+        - "Capstone phase — integrates ALL prior learning"
+        - "Robot classification before building"
+        - "Progressive: chassis → motors → sensors → control"
+        - "Final sessions include presentation/demo"
+      tools: ["Robot kits", "Arduino", "Motors", "Sensors"]
+      tangible: "Design and demonstrate a simple working robotic project"
+
+# ══════════════════════════════════════════════════
+# GRADE 7 — 41 SESSIONS
+# Intermediate: DT → Arduino → Simulation → Real Circuits → RC/Autonomous Robots → 3D
+# ══════════════════════════════════════════════════
+grade_7:
+  total_sessions: 41
+  title: "Intermediate — Arduino, RC Robots & 3D Design"
+  phases:
+    design_thinking:
+      sessions: [1, 2]
+      topic: "Design Thinking: Empathy & Definition"
+      constraints:
+        - "NO electronics or coding"
+        - "Empathy maps and user persona profiles"
+        - "Problem Statement Canvas + paper prototype"
+      tools: ["Sticky notes", "Chart paper", "Interview templates"]
+      tangible: "Empathy Map, User Persona Profile, Problem Statement Canvas, Paper Prototype"
+
+    electronics_recap:
+      sessions: [3]
+      topic: "Intermediate Electronics & Actuation"
+      constraints:
+        - "Assumes Grade 6 electronics knowledge"
+        - "DC motor working principle"
+        - "NO coding — purely electrical/mechanical"
+      tools: ["DC motors", "Batteries", "Switches", "Fan blades"]
+      tangible: "Build a portable fan"
+
+    arduino_setup:
+      sessions: [4, 5]
+      topic: "Microcontroller Environment (Arduino)"
+      constraints:
+        - "FIRST coding introduction for Grade 7"
+        - "Arduino IDE installation and configuration"
+        - "LED blink as first program — text-based (C/Arduino)"
+      tools: ["Arduino Uno", "Arduino IDE", "USB cables", "LEDs"]
+      tangible: "Install Arduino IDE, blink LED"
+
+    simulation:
+      sessions: [6, 7, 8, 9, 10, 11]
+      topic: "Digital Prototyping (Simulation)"
+      constraints:
+        - "Tinkercad for circuit + Arduino simulation"
+        - "Sessions 6-9: Traffic Light project"
+        - "Sessions 10-11: Sensor integration (light sensor, Smart Streetlight)"
+        - "Block-based coding in Tinkercad acceptable"
+      tools: ["Tinkercad", "Computers"]
+      tangible: "Traffic Light simulation, Smart Streetlight, Sensor data display"
+
+    real_circuits:
+      sessions: [12, 13]
+      topic: "Electronic Circuits"
+      constraints:
+        - "FIRST real Arduino circuits (transition from simulation)"
+        - "Car Parking Alarm project"
+        - "Must build physically, not just simulate"
+      tools: ["Arduino Uno", "Ultrasonic sensor", "Buzzer", "Breadboard"]
+      tangible: "Car Parking Alarm"
+
+    rc_robotics_intro:
+      sessions: [14, 15]
+      topic: "Robotics: Remote Control Systems (Theory)"
+      constraints:
+        - "Understanding RC car internals and signal flow"
+        - "Connection mapping — NOT building yet"
+      tools: ["RC car (for disassembly/study)", "Paper for diagrams"]
+      tangible: "Connection Map of RC signal flow"
+
+    autonomous_intro:
+      sessions: [16, 17]
+      topic: "Robotics: Autonomous Systems (Motors)"
+      constraints:
+        - "Motor controller wiring"
+        - "Directional control: forward, reverse, left, right"
+        - "NO autonomous logic yet — just motor control"
+      tools: ["Motor controllers", "Motors", "Arduino"]
+      tangible: "Motor directional control working"
+
+    sensor_integration:
+      sessions: [18, 19, 20, 21]
+      topic: "Sensor Integration"
+      constraints:
+        - "Add headlights, horn, buttons to robot"
+        - "Include Test Report writing"
+        - "Compare different car designs"
+      tools: ["LEDs", "Speakers", "Buttons", "Robot chassis"]
+      tangible: "Robot with headlights + horn, Test Report"
+
+    rc_robotics_build:
+      sessions: [22, 23, 24, 25, 26, 27]
+      topic: "Robotics: Remote Control Systems (Build)"
+      constraints:
+        - "Full 6-session RC robot build"
+        - "Progressive: frame → motors → wiring → sensors → control → polish"
+        - "Neat wiring emphasized"
+        - "DO NOT rush — spread across all 6 sessions"
+      tools: ["RC car kit", "Motor controllers", "Batteries", "Arduino", "3D printed parts"]
+      tangible: "Complete working RC robot"
+
+    autonomous_build:
+      sessions: [28, 29, 30, 31]
+      topic: "Robotics: Autonomous Systems (Line Follower)"
+      constraints:
+        - "Line follower car — calibration, testing, debugging"
+        - "Troubleshooting is key skill"
+        - "Debugging activities mandatory"
+      tools: ["Line follower sensors", "Arduino", "Tape for course"]
+      tangible: "Self-driving line follower robot"
+
+    three_d_design:
+      sessions: [32, 33, 34, 35]
+      topic: "3D Design Fundamentals"
+      constraints:
+        - "Tinkercad 3D design — NO printing (Grade 8)"
+        - "Geometric models: cubes, cones, cylinders"
+        - "Design only — no slicing, no printing"
+      tools: ["Tinkercad 3D"]
+      tangible: "3D Name Tag or Shape"
+
+    capstone:
+      sessions: [36, 37, 38, 39, 40, 41]
+      topic: "Miniproject + Capstone"
+      constraints:
+        - "Must combine at least 2 domains learned"
+        - "Presentation + peer feedback required"
+        - "No new concepts — application only"
+      tools: ["All previously used tools"]
+      tangible: "TBD — student-driven"
+
+# ══════════════════════════════════════════════════
+# GRADE 8 — 25 SESSIONS
+# Advanced: Entrepreneurial DT → IoT → Bio-Sensors → Drones → Data Science → 3D Print
+# ══════════════════════════════════════════════════
+grade_8:
+  total_sessions: 25
+  title: "Advanced — IoT, Drones, Data Science & 3D Manufacturing"
+  phases:
+    entrepreneurial_dt:
+      sessions: [1, 2]
+      topic: "Entrepreneurial Design Thinking"
+      constraints:
+        - "NO electronics or coding"
+        - "Market research survey (N=10)"
+        - "Business Model Canvas / Lean Canvas"
+        - "Data aggregation into visual report"
+      tools: ["Survey forms", "Spreadsheets", "Chart paper"]
+      tangible: "Market Research Survey + aggregated report"
+
+    iot_foundations:
+      sessions: [3, 4, 5]
+      topic: "Internet of Things (IoT) Foundations"
+      constraints:
+        - "FIRST introduction to NodeMCU/ESP8266"
+        - "WiFi and Bluetooth concepts before coding"
+        - "Hello World web server as first project"
+        - "Explicitly compare NodeMCU vs Arduino"
+      tools: ["NodeMCU/ESP8266", "Bluetooth modules", "Arduino IDE"]
+      tangible: "NodeMCU web server, Bluetooth pairing demo"
+
+    advanced_sensors:
+      sessions: [6, 7, 8]
+      topic: "Bio-Medical & Environmental Sensing"
+      constraints:
+        - "Advanced sensors: PIR, pressure, heart rate, gas"
+        - "Sensor datasheet compilation as deliverable"
+        - "Tinkercad simulation BEFORE physical build"
+        - "Safety: bio-medical sensors NOT for real diagnosis"
+      tools: ["PIR", "Pulse sensor", "Gas sensor", "Pressure sensor", "Arduino", "Tinkercad"]
+      tangible: "Sensor Datasheet, Home Security simulation, Smart Health Prototype"
+
+    autonomous_navigation:
+      sessions: [9, 10, 11]
+      topic: "Robotics: Navigation"
+      constraints:
+        - "Obstacle-avoider robot with ultrasonic sensors"
+        - "Maze-solving challenge"
+        - "Algorithm design BEFORE coding"
+      tools: ["Ultrasonic sensors", "Arduino", "Robot chassis", "Motor controllers"]
+      tangible: "Autonomous Maze-Solving Robot"
+
+    drones:
+      sessions: [12, 13, 14, 15]
+      topic: "Aerospace & Drone Technology"
+      constraints:
+        - "Drone theory BEFORE flying"
+        - "MANDATORY safety briefing before drone operation"
+        - "Flight Certification Challenge as assessment"
+        - "Scientific instruments in later sessions"
+      tools: ["Mini-drones", "Scientific instruments", "Rover chassis"]
+      tangible: "Flight Certification, Scientific Instrument Model"
+
+    data_science:
+      sessions: [16, 17]
+      topic: "Data Science & Analytics"
+      constraints:
+        - "Use sensor data from earlier sessions"
+        - "Spreadsheet-based — NOT Python"
+        - "Data cleaning, outlier handling, charting"
+      tools: ["Spreadsheets", "Sensors"]
+      tangible: "Data Insights Report"
+
+    three_d_manufacturing:
+      sessions: [18, 19]
+      topic: "Advanced 3D Manufacturing"
+      constraints:
+        - "Builds on Grade 7 Tinkercad skills"
+        - "STL export + Cura slicing"
+        - "G-code with parameter tuning"
+        - "Actual 3D printing with post-processing"
+        - "Print Strategy Comparison (10% vs 80% infill)"
+      tools: ["Tinkercad", "Cura", "3D printer", "Filament"]
+      tangible: "Complex 3D Assembly, G-code, Printed Product"
+
+    capstone:
+      sessions: [20, 21, 22, 23, 24, 25]
+      topic: "Miniproject + Capstone"
+      constraints:
+        - "Must integrate IoT, sensors, or robotics"
+        - "Entrepreneurial framing encouraged"
+        - "Presentation + demo + peer review"
+      tools: ["All previously used tools"]
+      tangible: "TBD — student-driven"
+
+# ══════════════════════════════════════════════════
+# CROSS-GRADE CONSTRAINTS
+# ══════════════════════════════════════════════════
+cross_grade_constraints:
+  simulation_before_physical:
+    - "G6: Tinkercad (24-28) before Arduino (29+)"
+    - "G7: Tinkercad (6-11) before real circuits (12+)"
+    - "G8: Tinkercad sim for sensors before physical builds"
+  theory_before_practice:
+    - "Drone theory + safety BEFORE flight"
+    - "Sensor principles BEFORE wiring"
+    - "Arduino pin ID BEFORE coding"
+    - "Motor theory BEFORE motor control"
+    - "Algorithm design BEFORE autonomous coding"
+    - "3D design BEFORE slicing BEFORE printing"
+  prerequisite_chains:
+    - "G7 Arduino assumes G6 electronics + microcontroller basics"
+    - "G7 RC robot assumes G7 Arduino + simulation"
+    - "G7 autonomous assumes G7 RC robot + sensor integration"
+    - "G8 IoT assumes G7 Arduino proficiency"
+    - "G8 advanced sensors assumes G6 sensors + G7 Arduino"
+    - "G8 maze robot assumes G7 line follower"
+    - "G8 3D manufacturing assumes G7 3D design"
+
+# ── Lesson Plan Format (5E) ─────────────────────
+lesson_plan:
+  format: "5E"
+  duration_minutes: 50
+  phases:
+    engage:
+      duration: 5
+      purpose: "Hook curiosity, connect to prior knowledge, Indian context"
+    explore:
+      duration: 15
+      purpose: "Hands-on investigation before formal instruction"
+    explain:
+      duration: 10
+      purpose: "Teacher introduces concepts with scaffolding"
+    elaborate:
+      duration: 15
+      purpose: "Apply knowledge to new contexts"
+    evaluate:
+      duration: 5
+      purpose: "Formative assessment aligned to objectives"
+  required_sections:
+    - session_number
+    - topic
+    - learning_objectives
+    - tangible_outcome
+    - prior_knowledge
+    - materials_needed
+    - 5e_phases
+    - differentiation
+    - teacher_notes
+    - homework_extension
+
+assessment:
+  formats:
+    mcq:
+      count: 5
+      style: "Which of the following..."
+    fill_in_blank:
+      count: 3
+      style: "Name the..."
+    match_the_following:
+      count: 1
+      constraint: "Each item has exactly one correct match"
+    true_false:
+      count: 3
+      constraint: "Include corrected statement for false items"
+    short_answer:
+      count: 2
+      max_words: 50
+  answer_key: true
+
+ppt:
+  layout: "LAYOUT_16x9"
+  max_slides: 12
+  min_slides: 8
+  max_bullets_per_slide: 4
+  graphics_guidance:
+    grade_6: "Simple, colourful, cartoon-style. Batteries, LEDs, circuit symbols as friendly icons."
+    grade_7: "Slightly technical but friendly. Arduino diagrams, robot illustrations."
+    grade_8: "Technical but accessible. IoT diagrams, drone schematics, data charts."
+    all_grades: "Indian settings. Diverse students (skin tones, genders, attire)."
+
+equipment:
+  class_size: 30
+  group_size: 5
+  num_groups: 6
+  suppliers:
+    preferred: ["Robocraze", "Amazon.in", "Robu.in", "Electronicscomp.com"]
+
+guardrails:
+  hallucination:
+    require_source_grounding: true
+    max_unsourced_claims: 0
+    cross_reference_framework: true
+    flag_uncertain_content: true
+  age_check:
+    max_sentence_length_student: 20
+    max_sentence_length_teacher: 30
+    require_simple_language: true
+  content_safety:
+    check_bias: true
+    check_stereotypes: true
+    check_cultural_sensitivity: true
+    check_gender_neutrality: true
+    banned_terms: ["stupid", "dumb", "easy", "obviously", "simply", "just", "basic", "no-brainer"]
+    safety_critical_topics:
+      - "Soldering — adult supervision required"
+      - "Battery handling — short circuit warnings"
+      - "Drone flying — safety briefing mandatory"
+      - "3D printer — hot nozzle warnings"
+      - "Bio-medical sensors — not for real diagnosis"
+  alignment:
+    objectives_to_activities: true
+    activities_to_assessment: true
+    bloom_taxonomy_check: true
+    no_assessment_without_teaching: true
+    tangible_outcome_required: true
+  consistency:
+    lesson_ppt_match: true
+    assessment_covers_objectives: true
+    equipment_matches_activities: true
+    cross_session_continuity: true
+  regional:
+    currency: "INR"
+    measurement: "metric"
+    examples_region: "India"
