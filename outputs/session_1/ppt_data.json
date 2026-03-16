@@ -1,0 +1,171 @@
+{
+  "session_number": 1,
+  "topic": "What is STEM? Introduction to Technologies and the STEM Lab",
+  "grade": 6,
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "title",
+      "title": "Session 1: What is STEM?\nIntroduction to Technologies and the STEM Lab",
+      "bullets": [],
+      "speaker_notes": "Welcome students to their first ENpower STEM Lab session. Build excitement about exploring STEM fields and connecting to Indian achievements.",
+      "graphics_description": "ENpower logo with purple and gold branding. Background shows diverse Indian students in a modern lab setting with STEM equipment. Include tagline 'THINK . CREATE . LEAD.'",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "content",
+      "title": "India Reaches the Moon!",
+      "bullets": [
+        "Chandrayaan-3 successfully landed on the Moon in 2023",
+        "India became the 4th country to achieve this amazing feat",
+        "Dr. APJ Abdul Kalam inspired generations as 'Missile Man of India'",
+        "How do you think scientists made this possible?"
+      ],
+      "speaker_notes": "Use this hook to generate excitement about STEM. Ask students what they know about space missions and connect to the upcoming STEM concepts.",
+      "graphics_description": "Split image showing Chandrayaan-3 spacecraft and a respectful illustration of Dr. APJ Abdul Kalam. Include Indian flag and space imagery with cartoon-style graphics.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "content",
+      "title": "What Does STEM Mean?",
+      "bullets": [
+        "S = Science (studying how things work)",
+        "T = Technology (tools and machines that help us)",
+        "E = Engineering (designing and building solutions)",
+        "M = Mathematics (numbers and patterns)"
+      ],
+      "speaker_notes": "Introduce each component with simple definitions. Ask students to think of examples for each letter before revealing the next slide.",
+      "graphics_description": "Large colorful letters S-T-E-M with simple icons: microscope for Science, computer for Technology, gears for Engineering, calculator for Mathematics. Use bright, engaging colors.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "content",
+      "title": "STEM Examples Around Us",
+      "bullets": [
+        "Science: Weather prediction helps farmers plan crops",
+        "Technology: Mobile apps connect people across India",
+        "Engineering: Metro trains make city travel faster",
+        "Mathematics: Cricket statistics help teams win matches"
+      ],
+      "speaker_notes": "Connect STEM to familiar Indian contexts. Encourage students to share their own examples from daily life.",
+      "graphics_description": "Four panels showing: weather satellite over Indian farmland, smartphone with Indian app icons, Delhi Metro train, cricket scoreboard with statistics. Cartoon-style, colorful illustrations.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "content",
+      "title": "STEM Fields Work Together",
+      "bullets": [
+        "Scientists discover new knowledge about our world",
+        "Engineers use science to design helpful solutions",
+        "Technology helps us build and test these solutions",
+        "Mathematics helps us measure and improve everything"
+      ],
+      "speaker_notes": "Emphasize how STEM fields collaborate. Use the moon mission example - scientists studied space, engineers designed the rocket, technology built it, math calculated the path.",
+      "graphics_description": "Circular diagram showing four STEM fields connected with arrows, demonstrating collaboration. Include diverse Indian students working together in the center.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 6,
+      "slide_type": "activity",
+      "title": "STEM Detective Hunt",
+      "bullets": [
+        "Look around our lab and find STEM tools",
+        "Work with your partner to identify each tool",
+        "Guess which STEM field uses each tool",
+        "Share your discoveries with the class"
+      ],
+      "speaker_notes": "Give students 5-7 minutes to explore the lab safely. Provide a simple worksheet to record findings. Circulate to guide and ensure safety.",
+      "graphics_description": "Cartoon detective with magnifying glass surrounded by lab equipment icons: beakers, rulers, computers, building blocks. Include diverse student pairs exploring.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 7,
+      "slide_type": "content",
+      "title": "Our STEM Lab Tools",
+      "bullets": [
+        "Measuring tools: rulers, scales, thermometers",
+        "Building materials: blocks, wires, batteries",
+        "Technology: computers, tablets, sensors",
+        "Safety equipment: goggles, gloves, first aid kit"
+      ],
+      "speaker_notes": "Show actual lab tools as you discuss each category. Demonstrate proper handling and emphasize that safety equipment protects everyone.",
+      "graphics_description": "Grid layout showing actual lab tools with clear labels. Include safety equipment prominently. Use bright, clear photography with cartoon-style borders.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 8,
+      "slide_type": "content",
+      "title": "Lab Safety Rules",
+      "bullets": [
+        "Always listen to instructions before starting",
+        "Wear safety goggles when working with materials",
+        "Keep your workspace clean and organized",
+        "Ask for help if you're unsure about anything"
+      ],
+      "speaker_notes": "Practice each safety rule with students. Have them repeat the rules back and explain why each one is important for everyone's safety.",
+      "graphics_description": "Four panels showing students demonstrating each safety rule. Include diverse Indian students wearing safety equipment properly. Use positive, encouraging imagery.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 9,
+      "slide_type": "content",
+      "title": "Good Lab Etiquette",
+      "bullets": [
+        "Share materials and take turns respectfully",
+        "Use quiet voices so everyone can concentrate",
+        "Clean up your area when finished",
+        "Help classmates when they need support"
+      ],
+      "speaker_notes": "Discuss why good behavior helps everyone learn better. Role-play examples of good and poor etiquette to make concepts clear.",
+      "graphics_description": "Students demonstrating good lab behavior: sharing equipment, working quietly, cleaning up, helping each other. Show positive interactions between diverse students.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 10,
+      "slide_type": "activity",
+      "title": "STEM in My Life Map",
+      "bullets": [
+        "Draw or write about STEM in your daily life",
+        "Include examples from home, school, and community",
+        "Connect each example to S, T, E, or M",
+        "Share one interesting discovery with a friend"
+      ],
+      "speaker_notes": "Provide large paper and colored pencils. Encourage creativity - students can draw, write, or use both. Walk around to help students make connections.",
+      "graphics_description": "Template showing a simple mind map with 'My Life' in the center and branches for Home, School, Community. Include small STEM icons and diverse student examples.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 11,
+      "slide_type": "content",
+      "title": "Indian STEM Innovations",
+      "bullets": [
+        "UPI payments make shopping easier for millions",
+        "Aadhaar system helps identify every Indian citizen",
+        "Indian Railways uses technology to connect the country",
+        "ISRO space missions inspire the world"
+      ],
+      "speaker_notes": "Connect these innovations to STEM fields. Ask students which STEM areas contributed to each innovation. Build pride in Indian achievements.",
+      "graphics_description": "Four icons representing each innovation: UPI payment symbol, Aadhaar logo, train, rocket. Use Indian flag colors and include diverse people benefiting from each innovation.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 12,
+      "slide_type": "summary",
+      "title": "What We Learned Today",
+      "bullets": [
+        "STEM means Science, Technology, Engineering, Mathematics",
+        "These four fields work together to solve problems",
+        "Lab safety rules keep everyone protected",
+        "Good etiquette helps everyone learn better"
+      ],
+      "speaker_notes": "Review key concepts and ask students to share their favorite discovery from today. Preview next session's exciting activities.",
+      "graphics_description": "Summary graphic with STEM letters, safety icons, and happy diverse students in lab coats. Include ENpower branding and 'THINK . CREATE . LEAD.' tagline.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    }
+  ],
+  "total_slides": 12
+}

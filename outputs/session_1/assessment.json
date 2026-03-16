@@ -1,0 +1,138 @@
+{
+  "session_number": 1,
+  "topic": "What is STEM? Introduction to Technologies and the STEM Lab",
+  "grade": 6,
+  "mcqs": [
+    {
+      "question": "Which of the following correctly explains what STEM stands for?",
+      "options": {
+        "A": "Science, Technology, Engineering, and Mathematics",
+        "B": "Study, Technology, Environment, and Medicine",
+        "C": "Science, Teaching, Engineering, and Medicine",
+        "D": "Systems, Technology, Energy, and Mathematics"
+      },
+      "correct_answer": "A",
+      "explanation": "STEM is an acronym that stands for Science, Technology, Engineering, and Mathematics - four fields that work together to solve problems and create innovations.",
+      "source_in_lesson": "Explain phase: STEM stands for Science, Technology, Engineering, and Mathematics"
+    },
+    {
+      "question": "Which of the following best describes how STEM fields work together?",
+      "options": {
+        "A": "They compete with each other to find the best solutions",
+        "B": "They work separately and never interact",
+        "C": "They work together to solve problems and create innovations",
+        "D": "Only two fields can work together at a time"
+      },
+      "correct_answer": "C",
+      "explanation": "STEM fields collaborate and combine their knowledge to solve complex problems and develop new innovations.",
+      "source_in_lesson": "Explain phase: These four fields work together to solve problems and create innovations"
+    },
+    {
+      "question": "Which of the following is the main purpose of lab safety rules?",
+      "options": {
+        "A": "To make experiments more difficult",
+        "B": "To protect everyone while learning",
+        "C": "To slow down the learning process",
+        "D": "To prevent students from using equipment"
+      },
+      "correct_answer": "B",
+      "explanation": "Lab safety rules are designed to keep all students and teachers safe while conducting experiments and learning activities.",
+      "source_in_lesson": "Explain phase: Lab safety rules protect everyone while learning"
+    },
+    {
+      "question": "Which of the following Indian achievements was mentioned as an example of STEM innovation?",
+      "options": {
+        "A": "Bollywood movies",
+        "B": "Cricket World Cup victory",
+        "C": "ISRO's Chandrayaan-3 mission",
+        "D": "Traditional dance forms"
+      },
+      "correct_answer": "C",
+      "explanation": "ISRO's Chandrayaan-3 mission was shown as an example of how Indian scientists and engineers use STEM to achieve great things.",
+      "source_in_lesson": "Engage phase: Show printed images of ISRO's Chandrayaan-3 mission"
+    },
+    {
+      "question": "Which of the following best explains why proper lab etiquette is important?",
+      "options": {
+        "A": "It makes the lab look more organized",
+        "B": "It helps everyone learn effectively",
+        "C": "It impresses visitors to the lab",
+        "D": "It reduces the cost of equipment"
+      },
+      "correct_answer": "B",
+      "explanation": "Proper lab etiquette creates an environment where all students can focus and learn effectively together.",
+      "source_in_lesson": "Explain phase: Proper lab etiquette helps everyone learn effectively"
+    }
+  ],
+  "fill_in_blank": [
+    {
+      "question": "Name the four components that make up STEM.",
+      "answer": "Science, Technology, Engineering, and Mathematics",
+      "source_in_lesson": "Explain phase: STEM stands for Science, Technology, Engineering, and Mathematics"
+    },
+    {
+      "question": "Name the Indian space mission that was shown as an example of STEM innovation.",
+      "answer": "Chandrayaan-3",
+      "source_in_lesson": "Engage phase: Show printed images of ISRO's Chandrayaan-3 mission"
+    },
+    {
+      "question": "Name the famous Indian scientist whose contributions were discussed in the lesson.",
+      "answer": "Dr. APJ Abdul Kalam",
+      "source_in_lesson": "Engage phase: Display images of Dr. APJ Abdul Kalam and ask about his contributions"
+    }
+  ],
+  "match_the_following": {
+    "column_a": [
+      "STEM",
+      "Lab Safety Rules",
+      "Lab Etiquette",
+      "Innovation"
+    ],
+    "column_b": [
+      "Helps everyone learn effectively",
+      "Science, Technology, Engineering, Mathematics",
+      "Protect everyone while learning",
+      "Creating new solutions to problems"
+    ],
+    "correct_matches": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "D"
+    },
+    "source_in_lesson": "Explain phase concepts and key vocabulary from lesson plan"
+  },
+  "true_false": [
+    {
+      "statement": "STEM fields work separately and never interact with each other.",
+      "answer": false,
+      "corrected_statement": "STEM fields work together to solve problems and create innovations.",
+      "source_in_lesson": "Explain phase: These four fields work together to solve problems and create innovations"
+    },
+    {
+      "statement": "Indian scientists and engineers use STEM to achieve great things.",
+      "answer": true,
+      "source_in_lesson": "Explain phase: Indian scientists and engineers use STEM to achieve great things"
+    },
+    {
+      "statement": "Lab safety rules are designed to make experiments more challenging.",
+      "answer": false,
+      "corrected_statement": "Lab safety rules protect everyone while learning.",
+      "source_in_lesson": "Explain phase: Lab safety rules protect everyone while learning"
+    }
+  ],
+  "short_answers": [
+    {
+      "question": "Explain how the four STEM fields work together using an example from the lesson.",
+      "model_answer": "The four STEM fields (Science, Technology, Engineering, and Mathematics) work together to solve problems and create innovations. For example, ISRO's Chandrayaan-3 mission used science to understand space, technology for spacecraft systems, engineering for design and construction, and mathematics for calculations and navigation.",
+      "marks": 2,
+      "source_in_lesson": "Explain phase: These four fields work together to solve problems and create innovations; Engage phase: ISRO's Chandrayaan-3 mission example"
+    },
+    {
+      "question": "Why are both lab safety rules and proper lab etiquette important in a STEM laboratory?",
+      "model_answer": "Lab safety rules protect everyone while learning by preventing accidents and injuries. Proper lab etiquette helps everyone learn effectively by creating a respectful environment where students can focus and collaborate. Together, they ensure a safe and productive learning space for all students.",
+      "marks": 2,
+      "source_in_lesson": "Explain phase: Lab safety rules protect everyone while learning; Proper lab etiquette helps everyone learn effectively"
+    }
+  ]
+}

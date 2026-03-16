@@ -1,0 +1,48 @@
+{
+  "session_number": 1,
+  "topic": "What is STEM? Introduction to Technologies and the STEM Lab",
+  "class_size": 30,
+  "group_size": 5,
+  "num_groups": 6,
+  "items": [
+    {
+      "item_name": "Chart paper (A1 size)",
+      "quantity_per_group": 4,
+      "total_quantity": 24,
+      "unit": "sheets",
+      "estimated_price_inr": 240,
+      "supplier": "Amazon.in",
+      "notes": "White chart paper for group activities and mapping exercises",
+      "price_verified": false
+    },
+    {
+      "item_name": "Markers (assorted colors)",
+      "quantity_per_group": 1,
+      "total_quantity": 6,
+      "unit": "sets",
+      "estimated_price_inr": 600,
+      "supplier": "Amazon.in",
+      "notes": "Multi-color marker sets (12 colors per set) for drawing and labeling",
+      "price_verified": false
+    },
+    {
+      "item_name": "Printed images of Indian scientists and ISRO missions",
+      "quantity_per_group": 1,
+      "total_quantity": 6,
+      "unit": "sets",
+      "estimated_price_inr": 180,
+      "supplier": "Local printing shop",
+      "notes": "Color printed images including APJ Abdul Kalam, CV Raman, Chandrayaan missions, etc. [VERIFY_PRICE]",
+      "price_verified": false
+    }
+  ],
+  "total_estimated_cost_inr": 1020,
+  "reusable_items": [
+    "Markers (assorted colors)"
+  ],
+  "consumable_items": [
+    "Chart paper (A1 size)",
+    "Printed images of Indian scientists and ISRO missions"
+  ],
+  "safety_equipment": []
+}

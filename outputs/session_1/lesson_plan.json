@@ -1,0 +1,155 @@
+{
+  "session_number": 1,
+  "topic": "What is STEM? Introduction to Technologies and the STEM Lab",
+  "grade": 6,
+  "duration_minutes": 50,
+  "learning_objectives": [
+    "Define STEM and identify its four components with examples",
+    "Recognize common lab tools and describe their safe usage",
+    "List five lab safety rules and demonstrate proper lab etiquette",
+    "Connect STEM concepts to real-life Indian innovations and achievements"
+  ],
+  "tangible_outcome": "Understand lab components and lab etiquette",
+  "prior_knowledge": [
+    "Basic understanding of science subjects from Grade 5",
+    "Awareness of technology in daily life",
+    "Following classroom rules and instructions"
+  ],
+  "materials_needed": [
+    "Chart paper (4 sheets)",
+    "Markers (assorted colors)",
+    "Printed images of Indian scientists and ISRO missions",
+    "Printed images of common lab tools",
+    "Lab safety rule posters"
+  ],
+  "vocabulary": [
+    {
+      "term": "STEM",
+      "definition": "Science, Technology, Engineering, and Mathematics working together"
+    },
+    {
+      "term": "Innovation",
+      "definition": "Creating new ideas or improving existing things"
+    },
+    {
+      "term": "Laboratory",
+      "definition": "A special room where scientific experiments and learning happen"
+    },
+    {
+      "term": "Safety protocol",
+      "definition": "Rules we follow to stay safe while working"
+    },
+    {
+      "term": "Etiquette",
+      "definition": "Proper behavior and manners in a specific place"
+    }
+  ],
+  "5e_phases": {
+    "engage": {
+      "duration_minutes": 5,
+      "teacher_action": "Welcome students to their first STEM lab session. Show printed images of ISRO's Chandrayaan-3 mission and ask students what they know about it. Display images of Dr. APJ Abdul Kalam and ask about his contributions.",
+      "student_action": "Share what they know about space missions and Dr. Kalam. Look around the lab and notice new equipment and setup.",
+      "discussion_questions": [
+        "What do you think helped India reach the moon?",
+        "How is this lab different from your regular classroom?",
+        "What subjects do you think scientists use to build rockets?"
+      ],
+      "indian_context": "Reference India's successful Chandrayaan-3 moon landing and Dr. APJ Abdul Kalam's role as the 'Missile Man of India' to spark curiosity about STEM fields."
+    },
+    "explore": {
+      "duration_minutes": 15,
+      "activity_name": "STEM Detective Hunt",
+      "instructions": [
+        "Form groups of 4 students each",
+        "Each group gets printed images of different innovations (smartphones, bridges, medicines, calculators)",
+        "Discuss and sort these images into four categories on chart paper",
+        "Create labels for each category based on what you think connects the items",
+        "Walk around the lab and identify 3 tools or equipment you see",
+        "Discuss in groups what these tools might be used for"
+      ],
+      "expected_observations": [
+        "Students naturally group items by Science, Technology, Engineering, Mathematics",
+        "Students show curiosity about lab equipment",
+        "Groups discuss and debate categorization",
+        "Students make connections between innovations and subjects they study"
+      ],
+      "teacher_facilitation": "Move between groups asking guiding questions like 'What do these items have in common?' and 'Which school subjects helped create this?' Encourage discussion without giving direct answers."
+    },
+    "explain": {
+      "duration_minutes": 10,
+      "key_concepts": [
+        "STEM stands for Science, Technology, Engineering, and Mathematics",
+        "These four fields work together to solve problems and create innovations",
+        "Indian scientists and engineers use STEM to achieve great things",
+        "Lab safety rules protect everyone while learning",
+        "Proper lab etiquette helps everyone learn effectively"
+      ],
+      "teacher_script": "Your detective work shows how Science, Technology, Engineering, and Mathematics connect! STEM means these four subjects working together. Science helps us understand how things work. Technology gives us tools and machines. Engineering designs and builds solutions. Mathematics helps us measure and calculate. Dr. Kalpana Chawla used all four when she became an astronaut. ISRO's Mangalyaan mission to Mars needed STEM too. In our lab, we follow safety rules to protect everyone and lab etiquette to learn together respectfully.",
+      "board_work": "Draw STEM acronym with examples: S-Science (studying materials), T-Technology (computers, tools), E-Engineering (designing bridges), M-Mathematics (calculations, measurements)",
+      "visual_aids": [
+        "STEM acronym poster with Indian examples",
+        "Images of Indian STEM achievements",
+        "Lab safety rules poster",
+        "Common lab tools identification chart"
+      ]
+    },
+    "elaborate": {
+      "duration_minutes": 15,
+      "activity_name": "STEM in My Life Map",
+      "instructions": [
+        "Each group creates a poster showing STEM in Indian daily life",
+        "Draw or write examples of Science in cooking, Technology in smartphones, Engineering in autorickshaws, Mathematics in cricket scores",
+        "Include one Indian scientist or innovation that inspires your group",
+        "Add three lab safety rules your group thinks are most important",
+        "Present your poster to another group and explain your choices"
+      ],
+      "connection_to_explore": "Students apply their understanding of STEM categories from the detective hunt to identify real-world examples, connecting abstract concepts to familiar experiences.",
+      "differentiation": {
+        "support": "Provide sentence starters like 'Science helps us...' and 'In cricket, mathematics is used for...' Give specific examples to choose from.",
+        "extension": "Challenge students to identify how all four STEM fields work together in one Indian innovation like the Mumbai Metro or digital payment systems."
+      }
+    },
+    "evaluate": {
+      "duration_minutes": 5,
+      "method": "Quick verbal assessment and observation checklist",
+      "questions": [
+        "What does each letter in STEM stand for?",
+        "Name one Indian example for each STEM field",
+        "What is one important lab safety rule?",
+        "How do STEM fields work together?"
+      ],
+      "success_criteria": [
+        "Student can define STEM acronym correctly",
+        "Student provides at least one Indian STEM example",
+        "Student states one lab safety rule clearly",
+        "Student shows enthusiasm for future STEM lab activities"
+      ]
+    }
+  },
+  "differentiation": {
+    "visual_learners": "Use printed images, posters, and visual sorting activities. Provide colorful charts showing STEM connections with pictures and diagrams.",
+    "kinesthetic_learners": "Include movement during lab exploration, hands-on sorting of images, and poster creation activities that involve physical manipulation of materials.",
+    "advanced_students": "Challenge them to identify complex STEM connections in Indian innovations and lead group discussions about how multiple STEM fields collaborate.",
+    "struggling_students": "Provide pre-made category labels, work in smaller groups with peer support, and offer specific examples to choose from during activities."
+  },
+  "teacher_notes": [
+    "This is students' first STEM lab experience - prioritize excitement and comfort",
+    "Emphasize that mistakes are part of learning in STEM",
+    "Point out lab equipment during exploration but don't overwhelm with details",
+    "Connect every concept to Indian context to build relevance and pride",
+    "Observe which students show natural leadership or curiosity for future grouping"
+  ],
+  "homework_extension": "Interview a family member about how they use STEM in their job or daily life. Write three sentences about what you learned. Bring one example to share next session.",
+  "cross_curricular_links": [
+    "Social Studies: Indian scientists and their contributions to society",
+    "Mathematics: Measuring and calculating in engineering projects",
+    "English: Technical vocabulary and presentation skills",
+    "Art: Design thinking in engineering solutions"
+  ],
+  "safety_notes": [
+    "Establish clear boundaries for lab exploration - students observe but don't touch equipment",
+    "Demonstrate proper walking pace in lab space",
+    "Emphasize hand washing before and after activities",
+    "Point out emergency exits and safety equipment locations"
+  ]
+}
