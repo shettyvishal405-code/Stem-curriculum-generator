@@ -1,0 +1,156 @@
+{
+  "session_number": 20,
+  "topic": "Working with Sensors — Motion and Sound Sensors",
+  "grade": 6,
+  "duration_minutes": 50,
+  "learning_objectives": [
+    "Describe how motion sensors and sound sensors detect environmental changes",
+    "Differentiate between sensors (input) and actuators (output) using motion and sound examples",
+    "Apply if-then logic to create condition-action pairs for motion and sound sensor scenarios",
+    "Identify at least three Indian real-world applications of motion and sound sensors"
+  ],
+  "tangible_outcome": "Students understand how motion and sound sensors work as input devices and can apply if-then logic to create basic automation scenarios without coding",
+  "prior_knowledge": [
+    "Sensors detect changes in the environment (input devices)",
+    "Actuators perform actions based on sensor data (output devices)",
+    "LDR sensors detect light intensity changes",
+    "Temperature sensors detect thermal energy changes",
+    "If-then logic uses condition-action pairs"
+  ],
+  "materials_needed": [
+    "PIR motion sensor modules (demonstration)",
+    "Sound sensor modules (demonstration)",
+    "Small bells or buzzers",
+    "Cardboard sheets",
+    "Motion and Sound Sensor Worksheet",
+    "If-Then Logic Cards",
+    "Chart paper and markers"
+  ],
+  "vocabulary": [
+    {
+      "term": "Motion Sensor",
+      "definition": "A device that detects movement of objects or people in its range"
+    },
+    {
+      "term": "PIR",
+      "definition": "Passive Infrared sensor that detects heat from moving objects"
+    },
+    {
+      "term": "Sound Sensor",
+      "definition": "A device that detects sound waves and converts them to electrical signals"
+    },
+    {
+      "term": "Microphone",
+      "definition": "A type of sound sensor that captures audio signals"
+    },
+    {
+      "term": "Automation",
+      "definition": "Technology that performs tasks automatically without human intervention"
+    }
+  ],
+  "5e_phases": {
+    "engage": {
+      "duration_minutes": 5,
+      "teacher_action": "Show students a video clip of automatic doors opening at a mall or metro station. Ask them to observe what triggers the door to open.",
+      "student_action": "Watch the video and discuss their observations about what makes the doors open automatically.",
+      "discussion_questions": [
+        "What do you notice happens just before the door opens?",
+        "How does the door 'know' someone is approaching?",
+        "Have you seen similar automatic systems in India?"
+      ],
+      "indian_context": "Reference automatic doors at Delhi Metro stations, shopping malls like Phoenix Mills, and how ISRO uses motion sensors to track spacecraft movement"
+    },
+    "explore": {
+      "duration_minutes": 15,
+      "activity_name": "Human Motion and Sound Detector Challenge",
+      "instructions": [
+        "Form groups of 4 students each",
+        "One student acts as a 'motion sensor' - closes eyes and detects when someone moves nearby",
+        "Another student acts as a 'sound sensor' - listens for specific sounds (claps, whispers)",
+        "Third student acts as an 'actuator' - performs actions when sensors detect changes",
+        "Fourth student records observations on the worksheet",
+        "Take turns being different components",
+        "Test different scenarios: walking quietly, making noise, standing still"
+      ],
+      "expected_observations": [
+        "Motion sensors work better when movement is closer",
+        "Sound sensors can detect different volume levels",
+        "Some movements are harder to detect than others",
+        "Background noise affects sound detection"
+      ],
+      "teacher_facilitation": "Move between groups asking: 'What triggers your human sensor?' 'How accurate is your detection?' 'What would improve your sensor?'"
+    },
+    "explain": {
+      "duration_minutes": 10,
+      "key_concepts": [
+        "Motion sensors detect movement using infrared heat or ultrasonic waves",
+        "PIR sensors detect heat from moving objects like humans and animals",
+        "Sound sensors convert sound waves into electrical signals",
+        "Both are input devices that send data to controllers",
+        "Controllers use if-then logic to trigger actuators"
+      ],
+      "teacher_script": "Motion sensors work like your eyes detecting movement. PIR sensors detect heat from moving objects - when you walk past, your body heat triggers the sensor. Sound sensors work like your ears, converting sound waves into signals. Both send information to a controller that decides what action to take using if-then logic.",
+      "board_work": "Draw a simple diagram: Motion/Sound → Sensor → Controller → Actuator → Action",
+      "visual_aids": [
+        "PIR motion sensor module",
+        "Sound sensor module",
+        "Diagram showing sensor-controller-actuator chain"
+      ]
+    },
+    "elaborate": {
+      "duration_minutes": 15,
+      "activity_name": "Indian Smart Systems Design Challenge",
+      "instructions": [
+        "Each group receives a scenario card with an Indian context problem",
+        "Design an automation solution using motion or sound sensors",
+        "Create if-then logic statements for your solution",
+        "Draw your system showing sensor, controller, and actuator",
+        "Present your solution explaining how it helps people",
+        "Scenarios include: Smart street lights, Security for homes, Traffic management, Agricultural monitoring"
+      ],
+      "connection_to_explore": "Apply the sensor detection principles discovered in the human sensor activity to design real automated systems",
+      "differentiation": {
+        "support": "Provide sentence starters for if-then statements and simplified scenario cards with guided questions",
+        "extension": "Challenge students to combine motion and sound sensors in one system or add multiple if-then conditions"
+      }
+    },
+    "evaluate": {
+      "duration_minutes": 5,
+      "method": "Quick formative assessment using exit ticket questions",
+      "questions": [
+        "Name one difference between a motion sensor and a sound sensor",
+        "Write an if-then statement for a motion sensor in a parking lot",
+        "Give one Indian example where sound sensors are used"
+      ],
+      "success_criteria": [
+        "Students can distinguish between motion and sound sensor functions",
+        "Students can create logical if-then statements",
+        "Students can identify relevant Indian applications"
+      ]
+    }
+  },
+  "differentiation": {
+    "visual_learners": "Use diagrams, flowcharts, and physical sensor demonstrations to show how motion and sound sensors work",
+    "kinesthetic_learners": "Engage in role-play activities as human sensors and hands-on exploration of sensor modules",
+    "advanced_students": "Challenge to design complex automation systems combining multiple sensors with multiple if-then conditions",
+    "struggling_students": "Provide structured worksheets with sentence frames and work in pairs with stronger peers"
+  },
+  "teacher_notes": [
+    "Emphasize that sensors are input devices - they gather information",
+    "Connect to previous sessions by reviewing LDR and temperature sensors briefly",
+    "Keep focus on conceptual understanding without introducing coding",
+    "Use Indian examples to make content relevant and relatable",
+    "Prepare backup activities if sensor demonstrations are not available"
+  ],
+  "homework_extension": "Find and photograph three examples of motion or sound sensors in your neighborhood (automatic doors, car alarms, motion lights). Write one if-then statement for each example explaining how it works.",
+  "cross_curricular_links": [
+    "Science: Sound waves, infrared radiation, heat energy",
+    "Mathematics: Logic statements, cause-and-effect relationships",
+    "Social Studies: Smart city initiatives in India, urban planning"
+  ],
+  "safety_notes": [
+    "Handle sensor modules carefully to avoid damage",
+    "Ensure students move safely during role-play activities",
+    "Keep noise levels appropriate during sound sensor activities"
+  ]
+}

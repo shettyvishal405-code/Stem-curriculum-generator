@@ -1,0 +1,138 @@
+{
+  "session_number": 20,
+  "topic": "Working with Sensors — Motion and Sound Sensors",
+  "grade": 6,
+  "mcqs": [
+    {
+      "question": "Which of the following best describes what a PIR sensor detects?",
+      "options": {
+        "A": "Sound waves from moving objects",
+        "B": "Heat from moving objects like humans and animals",
+        "C": "Light changes in the environment",
+        "D": "Electrical signals from devices"
+      },
+      "correct_answer": "B",
+      "explanation": "PIR sensors detect heat from moving objects like humans and animals, as explained in the lesson.",
+      "source_in_lesson": "Explain phase - PIR sensors detect heat from moving objects like humans and animals"
+    },
+    {
+      "question": "Which of the following correctly identifies motion and sound sensors as input or output devices?",
+      "options": {
+        "A": "Motion sensors are output devices, sound sensors are input devices",
+        "B": "Both motion and sound sensors are output devices",
+        "C": "Both motion and sound sensors are input devices",
+        "D": "Motion sensors are input devices, sound sensors are output devices"
+      },
+      "correct_answer": "C",
+      "explanation": "Both motion and sound sensors are input devices that send data to controllers, as taught in the lesson.",
+      "source_in_lesson": "Explain phase - Both are input devices that send data to controllers"
+    },
+    {
+      "question": "Which of the following methods do motion sensors use to detect movement?",
+      "options": {
+        "A": "Converting sound waves into electrical signals",
+        "B": "Infrared heat or ultrasonic waves",
+        "C": "Measuring light intensity changes",
+        "D": "Detecting magnetic field variations"
+      },
+      "correct_answer": "B",
+      "explanation": "Motion sensors detect movement using infrared heat or ultrasonic waves, as explained in the lesson.",
+      "source_in_lesson": "Explain phase - Motion sensors detect movement using infrared heat or ultrasonic waves"
+    },
+    {
+      "question": "Which of the following best describes how sound sensors work?",
+      "options": {
+        "A": "They detect heat from moving objects",
+        "B": "They measure light intensity changes",
+        "C": "They convert sound waves into electrical signals",
+        "D": "They use ultrasonic waves to detect movement"
+      },
+      "correct_answer": "C",
+      "explanation": "Sound sensors convert sound waves into electrical signals, as taught in the lesson.",
+      "source_in_lesson": "Explain phase - Sound sensors convert sound waves into electrical signals"
+    },
+    {
+      "question": "Which of the following triggers the automatic doors shown in the engagement video?",
+      "options": {
+        "A": "Sound from people talking",
+        "B": "Light changes in the area",
+        "C": "Motion of people approaching",
+        "D": "Temperature changes in the environment"
+      },
+      "correct_answer": "C",
+      "explanation": "The engagement activity showed automatic doors opening when triggered by motion of people approaching.",
+      "source_in_lesson": "Engage phase - Show students a video clip of automatic doors opening at a mall or metro station. Ask them to observe what triggers the door to open"
+    }
+  ],
+  "fill_in_blank": [
+    {
+      "question": "Name the type of sensor that detects heat from moving objects like humans and animals.",
+      "answer": "PIR sensor",
+      "source_in_lesson": "Explain phase - PIR sensors detect heat from moving objects like humans and animals"
+    },
+    {
+      "question": "Name the device type that motion sensors and sound sensors belong to (input or output).",
+      "answer": "Input devices",
+      "source_in_lesson": "Explain phase - Both are input devices that send data to controllers"
+    },
+    {
+      "question": "Name the logic system that controllers use to trigger actuators based on sensor data.",
+      "answer": "If-then logic",
+      "source_in_lesson": "Explain phase - Controllers use if-then logic to trigger actuators"
+    }
+  ],
+  "match_the_following": {
+    "column_a": [
+      "Motion Sensor",
+      "Sound Sensor",
+      "PIR",
+      "Microphone"
+    ],
+    "column_b": [
+      "Detects heat from moving objects",
+      "Converts sound waves to electrical signals",
+      "Detects movement using infrared or ultrasonic waves",
+      "Another name for sound sensor"
+    ],
+    "correct_matches": {
+      "1": "C",
+      "2": "B",
+      "3": "A",
+      "4": "D"
+    },
+    "source_in_lesson": "Key Vocabulary and Explain phase definitions of Motion Sensor, Sound Sensor, PIR, and Microphone"
+  },
+  "true_false": [
+    {
+      "statement": "Motion sensors are output devices that send signals to the environment.",
+      "answer": false,
+      "corrected_statement": "Motion sensors are input devices that send data to controllers.",
+      "source_in_lesson": "Explain phase - Both are input devices that send data to controllers"
+    },
+    {
+      "statement": "Sound sensors convert sound waves into electrical signals.",
+      "answer": true,
+      "source_in_lesson": "Explain phase - Sound sensors convert sound waves into electrical signals"
+    },
+    {
+      "statement": "PIR sensors can only detect movement, not heat from objects.",
+      "answer": false,
+      "corrected_statement": "PIR sensors detect heat from moving objects like humans and animals.",
+      "source_in_lesson": "Explain phase - PIR sensors detect heat from moving objects like humans and animals"
+    }
+  ],
+  "short_answers": [
+    {
+      "question": "Write an if-then statement for how a motion sensor might work in a parking lot lighting system.",
+      "model_answer": "If motion sensor detects a person or vehicle in the parking lot, then turn on the parking lot lights automatically.",
+      "marks": 2,
+      "source_in_lesson": "Evaluate phase - Write an if-then statement for a motion sensor in a parking lot"
+    },
+    {
+      "question": "Explain one key difference between how motion sensors and sound sensors detect environmental changes.",
+      "model_answer": "Motion sensors detect movement using infrared heat or ultrasonic waves, while sound sensors detect environmental changes by converting sound waves into electrical signals.",
+      "marks": 2,
+      "source_in_lesson": "Evaluate phase - Name one difference between a motion sensor and a sound sensor, and Explain phase content"
+    }
+  ]
+}

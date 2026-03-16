@@ -1,0 +1,59 @@
+{
+  "session_number": 20,
+  "topic": "Working with Sensors — Motion and Sound Sensors",
+  "class_size": 30,
+  "group_size": 5,
+  "num_groups": 6,
+  "items": [
+    {
+      "item_name": "PIR Motion Sensor Module",
+      "quantity_per_group": 1,
+      "total_quantity": 6,
+      "unit": "pieces",
+      "estimated_price_inr": 150,
+      "supplier": "Robocraze",
+      "notes": "HC-SR501 PIR motion sensor for demonstration",
+      "price_verified": false
+    },
+    {
+      "item_name": "Sound Sensor Module",
+      "quantity_per_group": 1,
+      "total_quantity": 6,
+      "unit": "pieces",
+      "estimated_price_inr": 120,
+      "supplier": "Robocraze",
+      "notes": "KY-037 sound detection sensor module for demonstration",
+      "price_verified": false
+    },
+    {
+      "item_name": "Small Buzzer",
+      "quantity_per_group": 2,
+      "total_quantity": 12,
+      "unit": "pieces",
+      "estimated_price_inr": 25,
+      "supplier": "Electronicscomp.com",
+      "notes": "5V active buzzer as actuator for sound output",
+      "price_verified": false
+    },
+    {
+      "item_name": "Motion and Sound Sensor Worksheet",
+      "quantity_per_group": 5,
+      "total_quantity": 30,
+      "unit": "sheets",
+      "estimated_price_inr": 2,
+      "supplier": "Local printing",
+      "notes": "Activity worksheet for sensor exploration",
+      "price_verified": false
+    }
+  ],
+  "total_estimated_cost_inr": 1560,
+  "reusable_items": [
+    "PIR Motion Sensor Module",
+    "Sound Sensor Module",
+    "Small Buzzer"
+  ],
+  "consumable_items": [
+    "Motion and Sound Sensor Worksheet"
+  ],
+  "safety_equipment": []
+}
