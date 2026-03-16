@@ -1,0 +1,7 @@
+item_name,quantity_per_group,total_quantity,unit,estimated_price_inr,supplier,notes,price_verified
+PIR Motion Sensor Module,1,6,pieces,150,Robocraze,HC-SR501 PIR motion sensor for demonstration,False
+Sound Sensor Module,1,6,pieces,120,Robocraze,KY-037 sound detection sensor module for demonstration,False
+Small Buzzer,2,12,pieces,25,Electronicscomp.com,5V active buzzer as actuator for sound output,False
+Motion and Sound Sensor Worksheet,5,30,sheets,2,Local printing,Activity worksheet for sensor exploration,False
+
+Total Estimated Cost (INR):,,,,,1560,,

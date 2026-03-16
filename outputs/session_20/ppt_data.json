@@ -1,0 +1,173 @@
+{
+  "session_number": 20,
+  "topic": "Working with Sensors — Motion and Sound Sensors",
+  "grade": 6,
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "title",
+      "title": "Session 20: Working with Sensors — Motion and Sound Sensors",
+      "bullets": [
+        "THINK . CREATE . LEAD."
+      ],
+      "speaker_notes": "Welcome students to Session 20 where we'll explore motion and sound sensors. Start with enthusiasm about how these sensors are all around us in India.",
+      "graphics_description": "ENpower logo with purple and gold colors. Background shows cartoon-style Indian students with diverse representation. Small icons of motion sensors and sound waves around the border.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "content",
+      "title": "Sensors Are Everywhere Around Us!",
+      "bullets": [
+        "Delhi Metro doors open automatically when you approach",
+        "Shopping mall lights turn on when you walk by",
+        "ISRO uses sensors to track spacecraft movement",
+        "Your phone detects when you speak to it"
+      ],
+      "speaker_notes": "Connect to students' daily experiences. Ask them to think about automatic systems they've seen. These examples show motion and sound sensors working in Indian contexts.",
+      "graphics_description": "Split screen showing Delhi Metro automatic doors, mall corridor with motion-activated lights, ISRO mission control room, and a student speaking to a smartphone. All in colorful cartoon style.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "content",
+      "title": "What Are Motion Sensors?",
+      "bullets": [
+        "Motion Sensor: A device that detects movement of objects or people",
+        "PIR: Passive Infrared sensor that detects heat from moving objects",
+        "They sense when something moves in their range",
+        "Used as input devices to send signals to controllers"
+      ],
+      "speaker_notes": "Define motion sensors clearly. Explain PIR in simple terms - it detects heat like our body heat. Emphasize that these are INPUT devices that collect information.",
+      "graphics_description": "Large cartoon motion sensor device in center. Arrows showing heat waves from a walking person being detected. Simple diagram showing sensor → controller → action flow.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "content",
+      "title": "What Are Sound Sensors?",
+      "bullets": [
+        "Sound Sensor: A device that detects sound waves and converts them to electrical signals",
+        "Microphone: A type of sound sensor that captures audio signals",
+        "They listen for sounds like clapping or speaking",
+        "Also input devices that send data to controllers"
+      ],
+      "speaker_notes": "Connect sound sensors to familiar microphones. Explain how they convert sound waves into electrical signals that computers can understand. Reinforce the input device concept.",
+      "graphics_description": "Cartoon microphone with sound waves emanating from a student's mouth. Visual representation of sound waves being converted to electrical signals (zigzag lines).",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "activity",
+      "title": "Human Motion and Sound Detector Challenge",
+      "bullets": [
+        "Work in pairs to be human sensors",
+        "One person is the 'motion sensor' - detect movement",
+        "Other person is the 'sound sensor' - detect sounds",
+        "Practice triggering actions when you detect inputs"
+      ],
+      "speaker_notes": "Students will role-play as sensors. Motion sensor student watches for movement and signals. Sound sensor student listens for specific sounds and signals. This helps them understand sensor-controller-actuator flow.",
+      "graphics_description": "Two cartoon Indian students working together. One has eyes wide open (motion sensor) watching another student move. Second student has hand to ear (sound sensor) listening. Action arrows between them.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 6,
+      "slide_type": "content",
+      "title": "Input vs Output: Sensors vs Actuators",
+      "bullets": [
+        "Sensors are INPUT devices - they collect information",
+        "Actuators are OUTPUT devices - they perform actions",
+        "Motion sensor (input) → Controller → Door opens (output)",
+        "Sound sensor (input) → Controller → Light turns on (output)"
+      ],
+      "speaker_notes": "Clear distinction between input and output. Use concrete examples. Motion sensor detects (input), door motor opens door (output). Sound sensor hears clap (input), LED lights up (output).",
+      "graphics_description": "Flow diagram showing: Motion sensor → Controller box → Door opening. Below: Sound sensor → Controller box → Light bulb turning on. Use arrows and bright colors to show the flow.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 7,
+      "slide_type": "content",
+      "title": "If-Then Logic with Sensors",
+      "bullets": [
+        "IF motion is detected, THEN turn on the light",
+        "IF sound is heard, THEN open the door",
+        "IF no motion for 5 minutes, THEN turn off the fan",
+        "Controllers use this logic to make decisions"
+      ],
+      "speaker_notes": "Introduce if-then logic as the brain of automation. Give clear examples. Ask students to create their own if-then statements. This prepares them for programming concepts later.",
+      "graphics_description": "Visual if-then flowchart with cartoon elements. Show decision diamond with 'Motion detected?' leading to 'YES → Light ON' and 'NO → Light OFF'. Use bright colors and simple shapes.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 8,
+      "slide_type": "content",
+      "title": "Motion and Sound Sensors in India",
+      "bullets": [
+        "Automatic hand sanitizer dispensers in hospitals",
+        "Voice-controlled elevators in Mumbai offices",
+        "Motion-activated street lights in smart cities",
+        "Sound-triggered emergency alarms in schools"
+      ],
+      "speaker_notes": "Connect to Indian contexts students can relate to. Discuss how these technologies make life easier and safer. Ask students if they've seen these applications in their cities.",
+      "graphics_description": "Four panels showing: Hospital sanitizer dispenser, modern elevator with voice control, street lamp at night, school building with alarm system. All in Indian settings with diverse people.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 9,
+      "slide_type": "activity",
+      "title": "Indian Smart Systems Design Challenge",
+      "bullets": [
+        "Design a smart system for an Indian school or home",
+        "Choose motion OR sound sensors as input",
+        "Write if-then logic for your system",
+        "Present your automation idea to the class"
+      ],
+      "speaker_notes": "Students work in small groups to design practical automation systems. Encourage creativity while keeping solutions realistic. Focus on Indian contexts like monsoon-triggered window closers or festival sound-activated decorations.",
+      "graphics_description": "Students in groups around tables with paper and pencils, designing systems. Thought bubbles showing their ideas: smart classroom, automated home features. Indian school setting with diverse students collaborating.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 10,
+      "slide_type": "content",
+      "title": "How Sensors Enable Automation",
+      "bullets": [
+        "Automation: Technology that performs tasks automatically without human intervention",
+        "Sensors provide the 'eyes' and 'ears' for automated systems",
+        "Controllers process sensor data and make decisions",
+        "This creates smart, responsive environments"
+      ],
+      "speaker_notes": "Define automation clearly. Help students understand that sensors are the starting point of all automated systems. They provide the information that allows systems to respond intelligently to their environment.",
+      "graphics_description": "Cartoon robot or smart home with sensor 'eyes' (motion sensors) and 'ears' (sound sensors). Arrows showing information flow to a central 'brain' (controller) that controls various outputs.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 11,
+      "slide_type": "summary",
+      "title": "Key Takeaways: Motion and Sound Sensors",
+      "bullets": [
+        "Motion and sound sensors are input devices that detect environmental changes",
+        "PIR sensors detect heat, sound sensors convert sound waves to electrical signals",
+        "If-then logic helps controllers make decisions based on sensor data",
+        "These sensors enable automation in many Indian applications"
+      ],
+      "speaker_notes": "Summarize the main learning points. Reinforce that sensors are inputs, they detect changes, and they enable automation through if-then logic. Connect back to the Indian examples discussed.",
+      "graphics_description": "Summary infographic with icons representing each key point: motion sensor icon, sound wave icon, if-then flowchart, and Indian flag with tech symbols. ENpower branding prominent.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    },
+    {
+      "slide_number": 12,
+      "slide_type": "content",
+      "title": "Next Steps: Keep Exploring!",
+      "bullets": [
+        "Look for motion and sound sensors in your daily life",
+        "Think about new automation ideas for your home or school",
+        "Practice creating if-then logic statements",
+        "THINK . CREATE . LEAD with sensor technology!"
+      ],
+      "speaker_notes": "Encourage continued exploration and observation. Students should start noticing sensors everywhere. This prepares them for future sessions on other sensor types and more complex automation projects.",
+      "graphics_description": "Inspiring image of diverse Indian students looking up with wonder, surrounded by floating icons of various sensors and smart devices. ENpower logo and tagline prominently displayed.",
+      "layout": "LAYOUT_TITLE_CONTENT"
+    }
+  ],
+  "total_slides": 12
+}
