@@ -1,0 +1,15 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs
+outputs/
+
+# Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/

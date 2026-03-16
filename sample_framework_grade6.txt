@@ -1,0 +1,71 @@
+ENpower STEM Labs — Grade 6 Curriculum Framework
+Board: CBSE/ICSE | Duration: 50 min per session | Total: 44 Sessions
+
+Topic: What is STEM, Introduction to Technologies
+Sessions: 2
+Learning Outcomes:
+- Students will be able to identify the four pillars of STEM (Science, Technology, Engineering, Mathematics)
+- Students will be able to name common tools and equipment in the STEM lab
+- Students will understand lab safety rules and etiquette
+Tangible Outcome: Understand lab components and lab etiquette
+
+Topic: Basic Electronics
+Sessions: 10
+Learning Outcomes:
+- Students will be able to explain the concept of electric current and voltage
+- Students will be able to build simple series and parallel circuits on a breadboard
+- Students will identify and describe common electronic components (LED, resistor, capacitor, diode)
+- Students will build circuits with buzzers and switches
+- Students will use RGB LEDs and potentiometers (sessions 9-12 only)
+Tangible Outcome: Build and debug simple electronic circuits
+
+Topic: Design Thinking
+Sessions: 3
+Learning Outcomes:
+- Students will be able to apply the empathise-define-ideate stages of design thinking
+- Students will identify real-world problems in their school or community
+- Students will propose technology-based solutions using a structured canvas
+Tangible Outcome: Analyse problems using Design Thinking, propose tech solutions
+
+Topic: Working with Sensors
+Sessions: 8
+Learning Outcomes:
+- Students will distinguish between sensors (input devices) and actuators (output devices)
+- Students will describe how common sensors work (light, temperature, sound, motion)
+- Students will apply if-then logic to describe simple automation scenarios
+- Students will identify real-world uses of sensors in Indian daily life
+Tangible Outcome: Understand input/output devices and basics of automation
+
+Topic: Simulation (Tinkercad)
+Sessions: 5
+Learning Outcomes:
+- Students will be able to create and test simple circuits in Tinkercad
+- Students will relate simulated circuits to physical circuits built earlier
+- Students will identify errors in circuit diagrams using simulation tools
+Tangible Outcome: Build and simulate circuits in Tinkercad
+
+Topic: Microcontroller Basics
+Sessions: 2
+Learning Outcomes:
+- Students will identify and name the key components of an Arduino Uno board
+- Students will distinguish between analog and digital pins
+- Students will upload a basic program to Arduino using Tinkercad simulation
+Tangible Outcome: Name Arduino Uno parts and use in simulation
+
+Topic: Sensor-Based Automation using Microcontrollers
+Sessions: 4
+Learning Outcomes:
+- Students will write simple Arduino code to read sensor data
+- Students will design a basic line-following algorithm using if-else logic
+- Students will simulate a sensor-based robot in Tinkercad before building physically
+Tangible Outcome: Simulated robot follows a line
+
+Topic: Robotics
+Sessions: 10
+Learning Outcomes:
+- Students will classify robots by type and application
+- Students will assemble a basic robot chassis with motors
+- Students will integrate sensors into a robot system
+- Students will program a robot to perform a simple task
+- Students will demonstrate and present their robotic project
+Tangible Outcome: Design and demonstrate a simple working robotic project
